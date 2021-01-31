@@ -3,7 +3,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/sony/poplar/device.mk)
+$(call inherit-product, device/sony/poplar_kddi/device.mk)
 
 # Product API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
@@ -19,8 +19,8 @@ TARGET_BOOTANIMATION_HALF_RES := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_poplar
-PRODUCT_DEVICE := poplar
+PRODUCT_NAME := lineage_poplar_kddi
+PRODUCT_DEVICE := poplar_kddi
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := G8341
 PRODUCT_MANUFACTURER := Sony

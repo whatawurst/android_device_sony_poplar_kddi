@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=poplar
+DEVICE=poplar_kddi
 VENDOR=sony
 
 # Load extract_utils and do some sanity checks

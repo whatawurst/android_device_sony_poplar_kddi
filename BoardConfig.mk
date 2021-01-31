@@ -15,9 +15,9 @@
 
 ### INHERIT FROM YOSHINO-COMMON
 include device/sony/yoshino-common/BoardConfigPlatform.mk
-include vendor/sony/poplar/BoardConfigVendor.mk
+include vendor/sony/poplar_kddi/BoardConfigVendor.mk
 
-DEVICE_PATH := device/sony/poplar
+DEVICE_PATH := device/sony/poplar_kddi
 
 PRODUCT_PLATFORM := yoshino
 
@@ -25,9 +25,9 @@ PRODUCT_PLATFORM := yoshino
 TARGET_BOOTLOADER_BOARD_NAME := G8341
 
 ### KERNEL
-TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-poplar_defconfig
+TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-poplar_kddi_defconfig
 
-BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar
+BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar_kddi
 
 ### PARTITIONS
 # See also /proc/partitions on the device
