@@ -377,6 +377,12 @@ lib64/vendor.qti.hardware.vpp@1.1.so
 bin/mssconfig
 etc/init/mssconfig.rc
 
+# NFC
+etc/libnfc-nci.conf
+etc/felica/common.cfg
+etc/felica/mfm.cfg
+etc/felica/mfs.cfg
+
 # QCRIL_RADIO
 -app/QtiTelephonyService/QtiTelephonyService.apk:product/app/QtiTelephonyService/QtiTelephonyService.apk
 -app/embms/embms.apk:product/app/embms/embms.apk:product/app/embms/embms.apk

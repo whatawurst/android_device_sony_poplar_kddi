@@ -1,0 +1,6 @@
+on post-fs-data
+    setprop ro.support.felica 1
+
+    # FeliCa/NFC
+    chown nfc nfc /dev/cxd224x-i2c
+    chown nfc nfc /dev/bd7602-i2c

@@ -934,10 +934,14 @@ vendor/lib64/libvpplibrary.so
 vendor/bin/msm_irqbalance
 
 # NFC
-vendor/etc/libnfc-nci.conf
-vendor/etc/libnfc-nxp-octopus.conf
-vendor/etc/libnfc-nxp.conf
-vendor/lib/libpn553_fw.so
+vendor/bin/hw/android.hardware.nfc@1.1-service.cxd22xx
+vendor/etc/libnfc-cxd22xx.conf
+vendor/etc/libnfc-cxd-224x02010010.conf
+vendor/etc/libnfc-cxd-224x02310011.conf
+vendor/etc/nfc_settings.conf
+vendor/etc/init/android.hardware.nfc@1.1-service.cxd22xx.rc
+vendor/firmware/cxd224x_firmware_ES1.1.bin
+vendor/firmware/cxd224x_firmware_ES1.0.bin
 
 # PERIPHERAL_MANAGER
 vendor/bin/pm-proxy

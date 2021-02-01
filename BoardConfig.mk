@@ -56,6 +56,9 @@ BOARD_MODEM_CUSTOMIZATIONS := true
 ### IMS
 BOARD_IMS_CAMERA := true
 
+### SEPOLICY
+BOARD_VENDOR_SEPOLICY_DIRS += device/sony/poplar_kddi/sepolicy/vendor
+
 ### VNDK
 BOARD_VNDK_VERSION := current
 
