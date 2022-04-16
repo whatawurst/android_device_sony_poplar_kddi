@@ -33,10 +33,6 @@ BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar_kddi
 # See also /proc/partitions on the device
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5242880000
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 55743832064
-
-# Build vendor.img
-BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
-TARGET_COPY_OUT_VENDOR := vendor
 BOARD_VENDORIMAGE_PARTITION_SIZE := 1610612736
 
 ### DISPLAY
@@ -44,9 +40,6 @@ TARGET_SCREEN_DENSITY := 430
 
 ### SEPOLICY
 BOARD_VENDOR_SEPOLICY_DIRS += device/sony/poplar_kddi/sepolicy/vendor
-
-### VNDK
-BOARD_VNDK_VERSION := current
 
 ### PROPS
 # Add device-specific ones
