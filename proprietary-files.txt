@@ -1,3 +1,6 @@
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from Xperia XZ1 KDDI variant (47.2.C.1.126).
+
 # AUDIO
 etc/audio_policy.conf
 
@@ -222,6 +225,8 @@ lib64/vendor.semc.hardware.light@1.0.so
 
 # MODEM
 bin/sony-modem-switcher
+
+# MODEM - from poplar - 47.2.A.11.228
 etc/customization/modem/amss_fs_empty.mbn|60cacbf3d72e1e7834203da608037b1bf83b40e8
 etc/customization/modem/amss_fsg_poplar_a1_austria_volte_vowifi_tar.mbn|c7371a359fccc595561b9d73c87a99bddf52aabb
 etc/customization/modem/amss_fsg_poplar_altice_do_tar.mbn|049abed41952a84614815bded8d9eaf14df8704d
