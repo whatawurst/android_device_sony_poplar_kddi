@@ -15,4 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_poplar_kddi.mk
+    $(LOCAL_DIR)/twrp_poplar_kddi.mk
+
+COMMON_LUNCH_CHOICES := \
+    twrp_poplar_kddi-eng \
+    twrp_poplar_kddi-userdebug
